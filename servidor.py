@@ -94,7 +94,7 @@ class Servidor:
 
             # Anuncia o arquivo para todos
             self.enviar_mensagem_global(
-                f"📁 {remetente} enviou o arquivo: {nome_arquivo}", remetente
+                f"{remetente} enviou o arquivo: {nome_arquivo}", remetente
             )
 
             # Repassa o arquivo para todos os outros clientes

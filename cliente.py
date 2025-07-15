@@ -50,7 +50,7 @@ class Cliente:
             # Protocolo: FILE:nome_arquivo:dados_base64
             mensagem_arquivo = f"FILE:{nome_arquivo}:{dados_base64}"
             self.socket.send(mensagem_arquivo.encode())
-            print(f"📤 Arquivo '{nome_arquivo}' enviado!")
+            print(f"Arquivo '{nome_arquivo}' enviado!")
 
         except Exception as e:
             print(f"❌ Erro ao enviar arquivo: {e}")
@@ -58,7 +58,7 @@ class Cliente:
     def enviar_mensagens(self):
         # Loop para ler input do usuário e enviar mensagens
         print(
-            "💬 Digite suas mensagens ou use '/send nome_arquivo.ext' para enviar arquivos:"
+            "Digite suas mensagens ou use '/send nome_arquivo.ext' para enviar arquivos:"
         )
         while True:
             mensagem = input()
@@ -110,7 +110,7 @@ class Cliente:
                 arquivo.write(dados_arquivo)
 
             print(
-                f"\033[1;32;40m📥 Arquivo recebido: {nome_arquivo} (salvo em downloads/)\033[0m"
+                f"\033[1;32;40mArquivo recebido: {nome_arquivo} (salvo em downloads/)\033[0m"
             )
 
         except Exception as e:

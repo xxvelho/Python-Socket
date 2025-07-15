@@ -15,12 +15,12 @@ Sistema de **chat em tempo real** implementado com paradigma **cliente-servidor*
 
 ### ✨ **Funcionalidades Principais:**
 
-- 🔐 **Autenticação** de usuários com senha
-- 💬 **Chat em tempo real** entre múltiplos clientes
-- 📁 **Transferência de arquivos** (desafio opcional implementado!)
-- 🚪 **Comando exit/quit** com notificação de saída
-- 🔌 **Comando shutdown** administrativo com aviso de 10 segundos
-- 🧵 **Multithreading** para recepção e envio simultâneos
+- **Autenticação** de usuários com senha
+- **Chat em tempo real** entre múltiplos clientes
+- **Transferência de arquivos** (desafio opcional implementado!)
+- **Comando exit/quit** com notificação de saída
+- **Comando shutdown** administrativo com aviso de 10 segundos
+- **Multithreading** para recepção e envio simultâneos
 
 ---
 
