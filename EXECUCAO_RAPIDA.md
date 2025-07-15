@@ -1,8 +1,8 @@
 # ⚡ EXECUÇÃO RÁPIDA - GUIA DE 2 MINUTOS
 
-## 🚀 **COMANDOS DIRETOS**
+## 🚀 COMANDOS DIRETOS
 
-### **1. Abra 4 terminais e execute:**
+### 1. Abra 4 terminais e execute:
 
 **Terminal 1 (Servidor):**
 
@@ -33,25 +33,25 @@ cd "Python-Socket" && python3 cliente.py
 
 ---
 
-## 📝 **TESTE RÁPIDO (30 segundos cada):**
+## TESTE RÁPIDO (30 segundos cada):
 
-1. **💬 Mensagem:** Digite "Olá!" no Terminal 2
-2. **📁 Arquivo:** Digite "/send arquivo_teste.txt" no Terminal 2
-3. **🚪 Saída:** Digite "exit" no Terminal 4
-4. **🔌 Shutdown:** Digite "shutdown" no Terminal 1
+1. **Mensagem:** Digite "Olá!" no Terminal 2
+2. **Arquivo:** Digite "/send arquivo_teste.txt" no Terminal 2
+3. **Saída:** Digite "exit" no Terminal 4
+4. **Shutdown:** Digite "shutdown" no Terminal 1
 
 ---
 
-## ✅ **RESULTADOS ESPERADOS:**
+## ✅ RESULTADOS ESPERADOS:
 
 - ✅ Mensagens aparecem em **vermelho** nos outros terminais
 - ✅ Arquivo é salvo na pasta **downloads/**
-- ✅ Saída mostra "**user4 saiu da sala**"
-- ✅ Shutdown avisa "**10 segundos**" e encerra tudo
+- ✅ Saída mostra "user3 saiu da sala"
+- ✅ Shutdown avisa "10 segundos" e encerra tudo
 
 ---
 
-## 🎯 **DEMONSTRAÇÃO COMPLETA:**
+## 🎯 DEMONSTRAÇÃO COMPLETA:
 
 ```bash
 # Para guia detalhado:
