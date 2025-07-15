@@ -1,0 +1,22 @@
+📁 ARQUIVO DE TESTE - TRANSFERÊNCIA DE ARQUIVOS 📁
+=================================================
+
+✅ Este arquivo demonstra a funcionalidade de transferência de arquivos
+implementada no chat!
+
+🎯 Como testar:
+1. Execute o servidor: python3 servidor.py
+2. Conecte 2+ clientes: python3 cliente.py
+3. Digite: /send arquivo_teste.txt
+4. Veja o arquivo sendo transferido!
+
+📊 Dados do teste:
+- Arquivo: arquivo_teste.txt
+- Tamanho: ~500 bytes
+- Codificação: Base64 para transmissão
+- Protocolo: FILE:nome_arquivo:dados_base64
+
+🎓 Trabalho de Redes de Computadores II - UFMA
+Professor: Mário Meireles Teixeira
+
+✨ Sistema funcionando perfeitamente! 
